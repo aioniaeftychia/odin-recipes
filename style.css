@@ -25,7 +25,7 @@ body {
     padding-bottom: 5px;
 }
 
-.list_item {
+li {
     padding: 5px;
 }
 
@@ -73,6 +73,6 @@ body {
     padding-left: 60px;
 }
 
-ol .list_item {
+ol li {
     padding: 9px;
 }
