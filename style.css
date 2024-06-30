@@ -1,7 +1,6 @@
 body {
     margin: 0;
     background-color: rgb(119, 87, 87);
-    padding-bottom: 100%;
 }
 
 .header {
@@ -11,14 +10,16 @@ body {
 
 .heading {
     margin: 0;
-    padding-left: 10px;
+    padding-left: 15px;
+    font-size: 50px;
+    color: black;
 }
 
 .section {
     background-color: gray;
 }
 
-.unordered_list {
+.list {
     margin: 0;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -30,4 +31,48 @@ body {
 
 .anchor {
     color: black;
+}
+
+.section#recipe_image {
+    padding: 20px;
+}
+
+.heading.two {
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 18px;
+    color: black;
+}
+
+.paragraph {
+    margin: 0;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.heading.three {
+    font-size: 30px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.heading.four {
+    font-size: 22px;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+#recipe_ingredients .unordered_list {
+    padding-left: 60px;
+}
+
+#recipe_instructions .ordered_list {
+    padding-left: 60px;
+}
+
+ol .list_item {
+    padding: 9px;
 }
