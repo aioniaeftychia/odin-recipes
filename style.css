@@ -1,25 +1,33 @@
-header
-{
+body {
+    margin: 0;
+    background-color: rgb(119, 87, 87);
+    padding-bottom: 100%;
+}
+
+.header {
     background-color: orange;
     color: black;
 }
 
-h1
-{
+.heading {
     margin: 0;
+    padding-left: 10px;
 }
 
-body
-{
-    margin: 0;
-    background-color: rgb(119, 87, 87);
-}
-section
-{
+.section {
     background-color: gray;
 }
 
-ul
-{
+.unordered_list {
     margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.list_item {
+    padding: 5px;
+}
+
+.anchor {
+    color: black;
 }
